@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+
+
+
+body {
+    background-color: gray;
+}
+
+
+/* Заголовок сайта */
+    
+.header {
+    height: 115px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgb(15, 15, 134);
+    z-index: 10;
+   
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.captionHeader {
+    text-align: center;
+    color: white;
+}
+
+.nav .nav-item {
+    display: inline-block;
+    color: rgb(218, 230, 117);
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 20px;
+    font-size: 18px;
+}
+
+
+
+
+/* Блок 1 */
+
+.block1 {
+    height: 230px;
+    background-color: white;
+    color: black;
+    margin-top: 135px;
+}
+
+h2 {
+    text-align: center;
+    color: darkblue;
+    padding: 20px;
+    font-size: 35px;
+    
+}
+
+.textBlock1 {
+    display: inline-block;
+    
+    color:black;
+     
+    margin-left: 60px;
+}
+
+/* Блок 2 */
+
+.block2 {
+    margin: 20px;
+    background-color: white;
+}
+
+.list {
+    margin-left: 40px;
+}
+
+/* Контейнер 1 */
+
+.container1 {
+    width: 100%;
+    background-color: white;
+
+}
+
+.caption {
+    text-align: center;
+    color: darkblue;
+    font-size: 27px;. 
+}
+
+/* Блок с картинкой и текстом*/
+
+.hero1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 480px;
+    
+    color: rgb(101, 112, 3);
+    background-color: rgb(134, 204, 236);
+}
+
+.he1Img {
+    width: 500px;
+    border-radius: 20px;
+    
+}
+
+.contentHero1 {
+    width: 350px;
+}
+
+/* Блок с карточками */
+
+.containerCard1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(149, 149, 235);
+    width: 100%;
+    height: 220px;
+    margin-top: 3px;
+
+
+
+}
+
+
+h5 {
+    position: relative;
+    bottom: 90px;
+    left:450px;
+    font-size: 22px;
+    
+}
+
+.card {
+    width: 200px;
+    
+    
+    background-color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 50px;
+
+
+}
+
+.cardPhoto {
+    width: 150px;
+    
+}
+
+
+.blockSub {
+    position: relative;
+    left: 50px;
+    height: 250px;
+    margin-top: 10px;
+    
+}
+
+.container2 {
+    width: 100%;
+    background-color: white;
+    margin-top: 50px;
+
+}
+
+.caption {
+    text-align: center;
+    color: darkblue;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+
+.hero2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 480px;
+    
+    color: rgb(101, 112, 3);
+    background-color: rgb(238, 198, 125);
+}
+
+.he2Img {
+    width: 500px;
+    border-radius: 20px;
+    
+}
+
+.contentHero2 {
+    width: 350px;
+}
+
+.containerCard2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(197, 132, 10);
+    width: 100%;
+    height: 220px;
+    margin-top: 3px;
+
+
+
+}
+
+
+h5 {
+    position: relative;
+    bottom: 90px;
+    left:450px;
+    font-size: 22px;
+    
+}
+
+.card {
+    width: 200px;
+    
+    
+    background-color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 50px;
+
+
+}
+
+.cardPhoto {
+    width: 150px;
+}
+
+.container3 {
+    width: 100%;
+    background-color: white;
+    margin-top: 50px;
+
+}
+
+.caption {
+    text-align: center;
+    color: darkblue;
+    font-size: 27px;
+}
+
+
+
+.hero3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 480px;
+    
+    color: rgb(145, 4, 4);
+    background-color: rgb(83, 104, 73);
+}
+
+.he3Img {
+    width: 500px;
+    border-radius: 20px;
+    
+}
+
+.contentHero3 {
+    width: 350px;
+}
+
+
+.containerCard3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(112, 12, 12);
+    width: 100%;
+    height: 220px;
+    margin-top: 3px;
+
+
+
+}
+
+
+h5 {
+    position: relative;
+    bottom: 90px;
+    left:450px;
+    font-size: 22px;
+    
+}
+
+.card {
+    width: 200px;
+    
+    
+    background-color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 50px;
+
+
+}
+
+.cardPhoto {
+    width: 150px;
+    
+}
+
+.btn {
+    background-color: rgb(243, 22, 22);
+    width: 200px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 1s;
+}
+
+.btn:hover {
+    background-color: rgb(24, 167, 24);
+    width: 230px;
+    height: 40px;
+    border-radius: 15px;
+    transition: 1s;
+
+}
+
+.block3 {
+    background-color: rgb(161, 192, 250);
+    width: 100%;
+    margin-top: 20px;
+    height:380px ;
+}
+
+.blockReg {
+    position: relative;
+    left: 50px;
+}
+
+.block4 {
+    background-color: rgb(238, 236, 143);
+    width: 100%;
+    margin-top: 20px;
+    height: 300px;
+    color: black;
+}
+
+.blockCont {
+    margin-left: 50px;
+}
+
+.footer {
+    height: 55px;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: darkblue;
+    color: white;  
+}
+
+.footer-text {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+    
