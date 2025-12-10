@@ -1,1 +1,337 @@
-<h1>Наше любимое кино</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite movies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Наше любимое кино</h1>
+        <p class="captionHeader">Обсуждаем фильмы, которые стали частью нас</p>
+           
+        <nav class="nav">
+            <a href="#love" class="nav-item">Немного о любимых фильмах</a>
+            <a href="#movies" class="nav-item">Предлагаемые фильмы</a>
+            <a href="#reg" class="nav-item">Регистрация</a>
+            <a href="#contacts" class="nav-item">Контакты</a>
+        </nav>
+
+    </header>
+
+    
+
+    <main class="main">
+
+        <section class="block1" id="love">
+
+            <div class="blockText">
+                <h2 class="caption">Немного о любимых фильмах</h2>
+                <p class="textBlock1"> Фильмы становятся любимыми не из-за безупречного сюжета или спецэффектов. Чаще всего — это момент встречи
+                не только с персонажами на экране, но и с самим собой в определенный период жизни. Любимый фильм — это эмоциональный якорь. Он ловит наши чувства, мысли, надежды и даже боль того времени, когда мы его впервые увидели. Мы возвращаемся к нему, чтобы вновь пережить то состояние. Важно и то, что такие фильмы отражают часть нашей личности. Любимый фильм часто становится мостиком к другим людям — тем, кто тоже его полюбил. Обсуждение, цитирование, совместный просмотр превращают его из просто ленты в общее переживание, в часть личной истории.
+                Так что любимый фильм — это всегда диалог.  Диалог с искусством, с памятью и с тем, кто мы есть. Он становится любимым, потому что находит в нас самый живой отклик. </p>
+            </div>
+
+        </section>
+
+        <section class="block2" id="movies">
+            <h2>Предлагаемые фильмы</h2>
+            <div class="list">
+                <ul>
+                    <li>
+                        <a href="https://www.kino-teatr.ru/kino/movie/hollywood/19971/titr/" target="_blank">На гребне волны</a>
+                    </li>
+
+                    <li>
+                        <a href="https://vk.com/video-76914461_456254575" target="_blank">Запах женщины</a>
+                    </li>
+
+                    <li>
+                        <a href="https://vk.com/video-162918645_456241492" target="_blank">Горячий снег</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="container1">
+                <h3 class="caption">На гребне волны</h3>
+                <div class="hero1">
+                    <div class="heroImg">
+                        <img src="images/photo/gv 1.jpg"  class="he1Img">
+                    </div>
+
+                    <div class="contentHero1">
+                        <h4>На гребне волны</h4>
+                        <p>Джонни Юта (герой Киану Ривза) — молодой агент ФБР, которого под прикрытием отправляют расследовать серию ограблений в Южной Калифорнии. Его задача — внедриться в сообщество серферов, чтобы выйти на банду экс-преступников.
+                        Тайлер Эндикотт (героиня Лори Петти) — опытная серферша, которая знакомит Джонни с культурой серфинга и становится его девушкой. Именно через неё он погружается в этот мир.
+
+                        Боди (герой Патрика Суэйзи) — харизматичный лидер банды бывших серферов-грабителей, которого подозревает ФБР. Он становится наставником Джонни в серфинге и его главным идейным оппонентом.
+
+                        Ключевая динамика: Сюжет строится вокруг треугольника Джонни-Тайлер-Боди и внутреннего конфликта Джонни, который разрывается между долгом (ФБР), любовью (к Тайлер) и уважением к философии и мастерству Боди. 
+                        «На гребне волны» — это красивая, но безжалостная притча о том, что нельзя вечно оставаться на гребне. Рано или поздно волна накрывает, заставляя выбирать: плыть дальше или утонуть. </p>
+                    </div>
+                
+                </div>    
+                <div class="containerCard1">
+                    <h5>Актёры</h5>
+
+                    <div class="card">
+                        <img src="images/photo/gv 2.jpg" alt="" class="cardPhoto">
+                        <h6>Патрик Суэйзи</h6>
+                        
+                    </div>
+
+                    <div class="card">
+                        <img src="images/photo/gv 3.jpg" alt="" class="cardPhoto">
+                        <h6>Киану Ривз</h6>
+
+                    </div>
+
+                    <div class="card">
+                        <img src="images/photo/gv 4.jpg" alt="" class="cardPhoto">
+                        <h6>Гэри Бьюзи</h6>
+
+                    </div>
+
+                    <div class="card">
+                        <img src="images/photo/gv 5.jpg" alt="" class="cardPhoto">
+                        <h6>Лори Петти</h6>
+
+                    </div>
+
+
+                </div>
+
+                <div class="sub"></div>
+                    <form action="#" method="POST" class="blockSub">
+                        <label>Введите имя режиссёра</label> <br>
+                        <input type="text" name="username" placeholder="Иван"> <br>
+
+                        <Label>Введите фамилию режиссёра</Label> <br>
+                        <input type="text" name="surname" placeholder="Иванов"> <br>
+
+                        <label>Поставить оценку от 1 до 10</label> <br>
+                        <input type="text" name="estimation" placeholder="10"> <br>
+                    
+                        <label>Коментарии</label> <br>
+                        <textarea name="message" rows="5" cols="30"></textarea> <br>
+
+                        <input type="submit" class="btn">
+                        <input type="submit" value="Очистить форму">
+                        
+                    
+                    </form>
+
+                </div>
+                
+            </div>
+
+            <div class="container2">
+                <h3 class="caption">Запах женщины</h3>
+                <div class="hero2">
+
+                    <div class="heroImg">
+                        <img src="images/photo/sw 1.jpg" class="he2Img">
+                    </div>
+
+                    <div class="contentHero2">
+                        <h4>Запах женщины</h4>
+
+                        <p>Блистательная драма о чести, отчаянии и радости бытия.Фрэнк Слейд – циничный, язвительный, разочарованный в жизни ветеран, решивший напоследок «просто хорошо провести время» в Нью-Йорке, а затем свести счёты с жизнью. Его сопровождает Чарли, честный юноша, стоящий перед тяжёлым моральным выбором в своей школе.
+
+                        Их путешествие становится феерией противостояния и взаимного спасения. Фрэнк учит Чарли бунту против лицемерия и конформизма, открывает ему вкус роскоши, скорости и женской красоты, которую он «видит» через ароматы. А Чарли, своей искренностью и стойкостью, невольно возвращает Фрэнку волю к жизни.
+
+                        Кульминация – знаменитая речь Слейда в школе, где он, защищая Чарли, произносит пламенную тираду в защиту чести, достоинства и правды. Эта роль принесла Аль Пачино заслуженный «Оскар».
+
+                        Фильм – гимн чувственному восприятию мира. «Запах женщины» – это о том, что чтобы по-настоящему видеть, не обязательно иметь зрение. Нужно лишь иметь характер, нюх на подлость и благородство, и неугасимую страсть танцевать танго, даже если мир вокруг пытается тебя остановить</p>
+
+                    </div>
+
+                </div>
+
+                <div class="containerCard2">
+                    <h5>Актёры</h5>
+
+                    <div class="card">
+                        <img src="images/photo/sw 2.jpg" alt="" class="cardPhoto">
+                        <h6>Крис О,Доннелл</h6>
+
+                    </div>
+
+                    <div class="card">
+                        <img src="images/photo/sw 3.jpg" alt="" class="cardPhoto">
+                        <h6>Аль Пачино</h6>
+
+                    </div>
+
+                    <div class="card">
+                        <img src="images/photo/sw 4.jpg" alt="" class="cardPhoto">
+                        <h6>Габриэль Анвар</h6>
+
+                    </div>
+
+                    <div class="card">
+                        <img src="images/photo/sw 5.jpg" alt="" class="cardPhoto">
+                        <h6>Филип Сеймур Хоффман</h6>
+
+                    </div>
+
+                    
+                </div>
+
+                <div class="sub">
+
+                    <form action="#" method="POST" class="blockSub">
+                        <label>Введите имя режиссёра</label> <br>
+                        <input type="text" name="username" placeholder="Иван"> <br>
+
+                        <Label>Введите фамилию режиссёра</Label> <br>
+                        <input type="text" name="surname" placeholder="Иванов"> <br>
+
+                        <label>Поставить оценку от 1 до 10</label> <br>
+                        <input type="text" name="estimation" placeholder="10"> <br>
+                    
+                        <label>Коментарии</label> <br>
+                        <textarea name="message" rows="5" cols="30"></textarea> <br>
+
+                        <input type="submit" class="btn">
+                        <input type="submit" value="Очистить форму">
+                    </form>
+                </div>
+
+                
+            </div>
+
+            <div class="container3">
+                <h3 class="caption">Горячий снег</h3>
+
+                <div class="hero3">
+                    <div class="heroImg">
+                        <img src="images/photo/hs 1.jpg" class="he3Img">
+                    </div>
+
+                    <div class="contentHero3">
+                        <h4>Горячий снег</h4>
+                        <p>
+                        Экранизация одноимённого романа Юрия Бондарева, снятая Гавриилом Егиазаровым, переносит декабрь 1942 года. Действие сосредоточено на одном из решающих, но малоизвестных эпизодов великой битвы – на подступах к Сталинграду, где артиллерийская батарея должна остановить прорыв танковой группы Манштейна, спешащей на выручку окружённой армии Паулюса.
+                
+                        Лейтмотив – цена победы и необходимость выполнить приказ любой ценой, ибо от этого крошечного участка фронта зависит судьба целой армии и, возможно, всего сражения.
+
+                        «Горячий снег» – это честный, сдержанный и пронзительный памятник стойкости обычного советского солдата. Фильм, который смотрится не как патетическая реконструкция, а как суровое, выстраданное свидетельство. Он остаётся в памяти ощущением холода, огня и несгибаемой воли.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="containerCard3">
+                    <h5>Актёры</h5>
+                    <div class="card">
+                        <img src="images/photo/hs 2.jpg" alt="" class="cardPhoto">
+                        <h6>Георгий Жжёнов</h6>
+
+                    </div>
+
+                    <div class="card">
+                        <img src="images/photo/hs 3.jpg" alt="" class="cardPhoto">
+                        <h6>Борис Токарев</h6>
+
+                    </div>
+
+                    <div class="card">
+                        <img src="images/photo/hs 4.jpg" alt="" class="cardPhoto">
+                        <h6>Николай Ерёменко (младший)</h6>
+
+                    </div>
+
+                    <div class="card">
+                        <img src="images/photo/hs 5.jpg" alt="" class="cardPhoto">
+                        <h6>Юрий Назаров</h6>
+
+                    </div>
+
+                </div>
+
+                <div class="sub">
+
+                    <form action="#" method="POST" class="blockSub">
+                        <label>Введите имя режиссёра</label> <br>
+                        <input type="text" name="username" placeholder="Иван"> <br>
+
+                        <Label>Введите фамилию режиссёра</Label> <br>
+                        <input type="text" name="surname" placeholder="Иванов"> <br>
+
+                        <label>Поставить оценку от 1 до 10</label> <br>
+                        <input type="text" name="estimation" placeholder="10"> <br>
+                    
+                        <label>Коментарии</label> <br>
+                        <textarea name="message" rows="5" cols="30"></textarea> <br>
+
+                        <input type="submit" class="btn">
+                        <input type="submit" value="Очистить форму">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="block3" id="reg">
+            <h2>Регистрация</h2>
+
+            <form action="#" method="POST" class="blockReg">
+                <label>Введите ваше имя</label> <br>
+                <input type="text" name="username"> <br>
+
+                <label>Email:</label> <br>
+                <input type="text" name="Email"> <br>
+
+                <label>Введите ваш возраст</label> <br>
+                <input type="text" name="age" placeholder="40"> <br>
+
+                <label>Коментарии и пожелания</label> <br>
+                <textarea name="message" rows="5" cols="50"></textarea> <br>
+
+                <input type="checkbox" name="age">
+                <label>Соглашаюсь с политикой конфиденциальности</label> <br>
+
+                <input type="submit" class="btn">
+                <input type="submit" value="Очистить форму">
+                
+            </form>
+            
+        </section>
+
+        <section class="block4" id="contacts">
+            <h2>Контакты</h2>
+
+            <div class="blockCont">
+                <p>Свяжитесь с нами для получения дополнительной информации</p>
+                <ul>
+                    <li>
+                        <p>Телефон:</p>
+                        <a href="+7 (951) 906-77-72">+7(951) 906-77-72</a>
+                    </li>
+                    <li>
+                        <p>Email:</p>
+                        <a href="andreisilantiev64@gmail.com">andreisilantiev64@gmail.com</a>
+                    </li>
+                    <li>
+                        <img src="images/icons/icons8-телеграм.gif">
+                        <a href="+7 (951) 906-77-72">+7(951) 906-77-72</a>
+                    </li>
+                    <li>
+                        <img src="images/icons/icons8-vk-48 (1).png">
+                        <a href="https://vk.com/andreisil">https//vk.com/andreisil</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        
+    </main>
+
+    <footer class="footer">
+        <p class="footerText">2025 Все права защищены</p>
+        
+    </footer>
+    
+</body>
+</html>
